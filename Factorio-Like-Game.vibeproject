@@ -1,0 +1,6 @@
+{
+  "formatVersion": 1,
+  "name": "Factorio-Like-Game",
+  "startupProject": "Factorio-Like-Game.csproj",
+  "startupScene": "Scenes/Main.world"
+}
