@@ -18,7 +18,7 @@ internal static class Program
         DesktopGameHost.Run(
         (DesktopGameHostContext context) => new GameMain(
             context.Runtime,
-            startupScenePath),
+            startupScenePath, context.PointerInput),
                 new DesktopGameHostOptions
                 {
                     Title = "Factorio-Like-Game",
